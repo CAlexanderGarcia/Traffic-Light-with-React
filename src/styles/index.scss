@@ -4,6 +4,10 @@
     background-color: black;
     padding: 10px;
     display: inline-block;
+    border-radius: 20px;
+    margin: 50px;
+    margin-left: -60px;
+    display: block;
 
 }
 
@@ -18,13 +22,20 @@
 .green{background-color: green; }
 
 .glow{
- box-shadow:0 0 16px #ea4c89, inset 0 0 14px #ea4c89; 
+ box-shadow:0 0 25px #eee7ea, inset 0 0 14px #c0e2ec; 
 }
 
+.vl {
+    border-left: 8px solid black;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    display: block;
 
 
-
-
+}
 
 
 
